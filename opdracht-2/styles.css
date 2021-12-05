@@ -3,3 +3,55 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    }
+
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+
+
+
+
+
